@@ -3,7 +3,7 @@ os: linux
 files:
   - source: /
     destination: /home/ec2-user/example
-  hook:
+  hooks:
     ApplicationStop:
       - location: deploy/application_stop.sh
         timeout: 300
