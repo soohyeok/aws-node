@@ -1,7 +1,7 @@
 {
   "name": "aws-node",
   "version": "1.0.0",
-  "description": "aws-node example",
+  "description": "aws-node aws-node",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

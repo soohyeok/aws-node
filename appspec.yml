@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/example
+    destination: /home/ec2-user/aws-node
   hooks:
     ApplicationStop:
       - location: deploy/application_stop.sh

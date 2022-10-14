@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #give permission for everything in the express-app directory
-sudo chmod -R 777 /home/ec2-user/example
+sudo chmod -R 777 /home/ec2-user/aws-node
 
 #navigate into our working directory where we have all our github files
-cd /home/ec2-user/example
+cd /home/ec2-user/aws-node
 
 #add npm and node to path
 export NVM_DIR="$HOME/.nvm"	
