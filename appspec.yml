@@ -1,0 +1,20 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/ec2-user/example
+  hook:
+    ApplicationStop:
+      - location: deploy/application_stop.sh
+        timeout: 300
+        runas: ec2-user
+    BeforeInstall:
+      - location: deploy/before_install.sh
+        timeout: 300
+        runas: ec2-user
+    ApplicationStart:
+      - location: deploy/application_start.sh
+        timeout: 300
+        runas: ec2-user 
+
+
